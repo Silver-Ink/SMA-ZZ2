@@ -44,12 +44,19 @@ double Vect::norm(Vect v)
     return sqrt(norm_sq(v));
 }
 
+/// @brief Calcule l'angle du vecteur 
+/// @return L'angle du vecteur compris dans ]-π;π]
 double Vect::angle()
 {
-    return atan2(x_, y_);
+    return atan2(y_, x_);
 }
+/// @brief Angle du vecteur par rapport au vecteur v
+/// @param v 
+/// @return 
 double Vect::angle(Vect v)
 {
-    return atan2(v.x_ - x_,
-                    v.y_ - y_);
+    double angle = atan2(v.y_, v.x_) - atan2(y_, x_);
+    if (angle > M_PI)        { angle -= 2 * M_PI; }
+    else if (angle <= -M_PI) { angle += 2 * M_PI; }
+    return angle;
 }
