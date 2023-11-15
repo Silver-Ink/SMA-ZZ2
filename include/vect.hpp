@@ -13,8 +13,8 @@ public:
 
     //set
     void set_p(double x, double y);
-    void set_p(double x);
-    void set_p(double y);
+    void set_x(double x);
+    void set_y(double y);
 
     //operator
     double dist_sq(Vect v);

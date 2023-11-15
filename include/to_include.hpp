@@ -1,6 +1,12 @@
 #ifndef INCLUDE
 #define INCLUDE
 
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <cmath>
+using namespace std;
+
 #include "vect.hpp"
 
 #include "amogus.hpp"
