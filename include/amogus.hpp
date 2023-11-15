@@ -12,7 +12,7 @@ class Amogus
         bool weapon;
     public:
         /*constructeur*/
-        Amogus(double , double, double , bool);
+        Amogus(double v, double i, double vit, bool w);
         /*getter*/
         double get_vision();
         double get_interaction();

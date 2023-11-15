@@ -9,7 +9,7 @@ class Sherif : public Amogus
         int cooldown;
     public:
         /*constructeur*/
-        Sherif(double , double, double , bool, int);
+        Sherif(double v, double i , double vit, bool w , int c);
         /*getter*/
         int get_cooldown();
         /*setter*/

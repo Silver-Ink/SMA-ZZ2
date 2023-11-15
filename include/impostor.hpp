@@ -10,7 +10,7 @@ class Impostor : public Amogus
         bool knowledge;
     public:
         /*constructeur*/
-        Impostor(double , double, double , bool, int, bool);
+        Impostor(double v, double i, double vit, bool w, int c, bool k);
         /*getter*/
         int get_cooldown();
         bool get_knowledge();

@@ -14,5 +14,6 @@ using namespace std;
 #include "impostor.hpp"
 #include "sherif.hpp"
 
+#include "game.hpp"
 
 #endif
