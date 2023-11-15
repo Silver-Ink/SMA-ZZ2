@@ -1,4 +1,4 @@
-#include "../lib/include/amogus.hpp"
+#include "to_include.hpp"
 
 
 
