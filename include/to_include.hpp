@@ -12,6 +12,7 @@ using namespace std;
 #include "amogus.hpp"
 #include "crewmate.hpp"
 #include "impostor.hpp"
+#include "sherif.hpp"
 
 
 #endif

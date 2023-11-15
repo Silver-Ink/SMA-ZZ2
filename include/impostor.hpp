@@ -9,6 +9,8 @@ class Impostor : public Amogus
         int cooldown;
         bool knowledge;
     public:
+        /*constructeur*/
+        Impostor(double , double, double , bool, int, bool);
         /*getter*/
         int get_cooldown();
         bool get_knowledge();

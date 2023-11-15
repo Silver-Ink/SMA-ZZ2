@@ -6,10 +6,13 @@
 
 class Crewmate : public Amogus
 {
+    
     private:
         int nb_task;
         double proba;
     public:
+        /*constructeur*/
+        Crewmate(double , double, double , bool, int, double);
         /*getter*/
         int get_nb_task();
         double get_proba();
