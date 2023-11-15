@@ -18,10 +18,3 @@ void Amogus::set_interaction(double i){interaction = i;}
 void Amogus::set_vision(double v){vision = v;}
 void Amogus::set_vitesse(double v){vitesse = v;}
 void Amogus::set_weapon(bool w){weapon = w;}
-
-/*autre*/
-void move(){
-    /*TODO*/
-}
-
-
