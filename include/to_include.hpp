@@ -16,4 +16,6 @@ using namespace std;
 
 #include "game.hpp"
 
+#include "../raylib/src/raylib.h"
+
 #endif
